@@ -1,4 +1,5 @@
 # File with dummy code
 
 def dummy(a, b):
-    return a*b
+	assert(type(a) == int or type(a) == float)
+	return a*b
